@@ -1,0 +1,22 @@
+{
+  "name": "xltxlm/algorithm",
+  "authors": [
+    {
+      "name": "copygithub",
+      "email": "xltxlm@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "description":"基础算法数据结构",
+  "require": {
+    "php": "~7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "xltxlm\\algorithm\\": [
+        "src/",
+        "./"
+      ]
+    }
+  }
+}
